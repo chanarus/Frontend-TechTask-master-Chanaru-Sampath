@@ -1,0 +1,33 @@
+.cart {
+  padding: 1rem;
+  margin-top: 8rem;
+}
+
+.cart .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.product {
+  display: flex;
+  border-top: 1px dotted;
+  border-left: 1px dotted;
+  border-right: 1px dotted;
+  padding: 0.3rem 0.5rem;
+  align-items: center;
+}
+
+.product h3 {
+  color: #007185;
+  font-weight: 700;
+  font-size: 1em;
+  line-height: 20px;
+  margin: 0.3rem;
+  flex: 1;
+}
+
+.product img {
+  max-width: 3rem;
+  height: auto;
+  margin: 0.875rem;
+}
